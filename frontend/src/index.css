@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background: #f7f7f9;
+  color: #1a1a1a;
+}
+
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+header h1 {
+  margin-bottom: 4px;
+}
+
+header p {
+  color: #666;
+}
+
+.url-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.url-form input {
+  flex: 1;
+  padding: 12px 14px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+.url-form button {
+  padding: 12px 20px;
+  background: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.url-form button:disabled {
+  background: #9ec3f4;
+  cursor: not-allowed;
+}
+
+.status-message {
+  text-align: center;
+  color: #555;
+}
+
+.status-message.error {
+  color: #c62828;
+}
+
+.report {
+  margin-top: 30px;
+}
+
+.score-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin: 24px 0 32px;
+}
+
+.score-card {
+  text-align: center;
+}
+
+.score-circle {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 4px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0 auto 6px;
+  background: white;
+}
+
+.check-section {
+  background: white;
+  border-radius: 10px;
+  padding: 16px 20px;
+  margin-bottom: 16px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.check-section h3 {
+  margin-top: 0;
+}
+
+.check-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.check-section li {
+  display: flex;
+  gap: 10px;
+  padding: 10px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.check-section li:last-child {
+  border-bottom: none;
+}
+
+.check-section li p {
+  margin: 2px 0 0;
+  color: #666;
+  font-size: 14px;
+}
+
+.status-icon {
+  font-size: 18px;
+}

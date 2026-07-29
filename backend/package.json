@@ -1,0 +1,25 @@
+{
+  "name": "seo-analyzer-server",
+  "version": "1.0.0",
+  "description": "Backend for the SEO analyzer (Woorank-style) - crawls a website and returns an SEO report",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "lighthouse": "^12.2.1",
+    "mongoose": "^8.5.0",
+    "puppeteer": "^22.15.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
